@@ -6,19 +6,22 @@ Homebrew is a package manager available on MacOS platform that makes it easier t
 
 Any package/utility/application in Brew terminology is called as **Formula**.
 
+Search formulae on Homebrew page - https://formulae.brew.sh/formula/
+
 | Action      | Command |
 | :---        |    :----   |
 | Check if Homebrew is installed | `$ brew --version` <br><br> If Homebrew is installed on your machine, then you will get its version, like - <br> `Homebrew 3.6.20` <br> Otherwise, an error will be printed - <br> `command not found: brew`|
 | Install Homebrew | `$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`|
 | Update Homebrew | `$ brew update` <br> You should keep Homebrew updated at the latest version before downloading anything |
 | Fix the broken links using repair utility | `$ brew doctor`|
-| List the formulae installed using Homebrew | `$ brew list`|
+| List the formulae on your machine | `$ brew list`|
 | Cleanup and Free Space | `$ brew cleanup`|
 | Search if a formula (NVM) is available on Homebrew | `$ brew search nvm` <br> This will show the formulae available on Homebrew as well as on Cask. |
 | Install a formula (NVM) | `$ brew install nvm` |
 | Uninstall a formula (NVM) | `$ brew uninstall nvm` |
 | Upgrade a formula (NVM) | `$ brew upgrade nvm` |
-| See what versions of a formula (NVM) is installed | `$ brew list --versions nvm` |
+| See what versions of a formula (NVM) are installed | `$ brew list --versions nvm` |
+| Switch between versions of a formula (NVM) | `$ brew list --versions nvm` |
 
 - - -
 ## Homebrew Repositories
